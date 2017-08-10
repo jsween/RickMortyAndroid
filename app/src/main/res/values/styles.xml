@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+    <!--Custom text view-->
+    <style name="CustomTextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--Custom Radio Group-->
+    <style name="CustomRadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/radio_group_margin_bottom</item>
+    </style>
+    <!--Custom Radio Button-->
+    <style name="CustomRadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/small_margin</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <!--Custom edit text-->
+    <style name="CustomEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/radio_group_margin_bottom</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+    </style>
+    <!--Custom CheckBox-->
+    <style name="CustomCheckBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:paddingLeft">@dimen/small_margin</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
+    <!--Custom Toggle Button-->
+    <style name="CustomToggleButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textOn">@string/true_text</item>
+        <item name="android:textOff">@string/false_text</item>
+        <item name="android:layout_marginBottom">@dimen/radio_group_margin_bottom</item>
+    </style>
+</resources>

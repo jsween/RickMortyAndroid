@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Rick and Morty Quiz</string>
+    <!--Questions and answers-->
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+    <!--Question 1-->
+    <string name="q_1">1. Rick is Morty\'s:</string>
+    <string name="q_1_answer">Grandpa</string>
+    <string name="q_1_wrong_1">Uncle</string>
+    <string name="q_1_wrong_2">Neighbor</string>
+    <!--Question 2-->
+    <string name="q_2">2. I\'m Mr. ______\n Look at Me!</string>
+    <string name="q_2_answer">Meeseeks</string>
+    <string name="q_2_wrong_1">Rogers</string>
+    <string name="q_2_wrong_2">Bluey</string>
+    <!--Question 3-->
+    <string name="q_3">3. Rick\'s Last Name is:</string>
+    <string name="q_3_answer">Sanchez</string>
+    <string name="q_3_wrong_1">Rogers</string>
+    <string name="q_3_wrong_2">Smith</string>
+    <!--Question 4-->
+    <string name="q_4">4. Rick\'s ex-girlfriend\'s name is:</string>
+    <string name="q_4_answer">Beta-Seven</string>
+    <string name="q_4_wrong_1">Alpha-Nine</string>
+    <string name="q_4_wrong_2">Delta-Four</string>
+    <!--Question 5-->
+    <string name="q_5_text_view">5. What is Rick\'s catchphrase?</string>
+    <string name="q_5">Enter Rick\'s catchphrase: </string>
+    <string name="q_5_answer">wubba lubba dub dub</string>
+    <!--Question 6-->
+    <string name="q_6">6. Morty has a (check all that apply):</string>
+    <string name="q_6_answer_1">Pet Dog</string>
+    <string name="q_6_answer_2">Father</string>
+    <string name="q_6_answer_3">Yellow Shirt</string>
+    <!--Question 7-->
+    <string name="q_7">7. Morty\s Parents are co-dependent (T/F):</string>
+    <!--Question 8-->
+    <string name="q_8">8. Morty is from Universe 1224 (T/F):</string>
+    <!--Question 9-->
+    <string name="q_9">9. Beth is a horse veterinarian (T/F):</string>
+    <!--Question 10-->
+    <string name="q_10">10. Jerry is unemployed (T/F):</string>
+    <!--Elements-->
+    <string name="user_name">Name:</string>
+    <string name="submit_button">Submit</string>
+    <!--Accessibility description-->
+    <string name="meeseeks">Mr. Meeseeks Image</string>
+    <!--Responses for message-->
+    <string name="high_score">Great job\u0020</string>
+    <string name="med_score">Time to watch more Rick and Morty,\u0020</string>
+    <string name="low_score">Stop what you\'re doing right now and watch Rick and Morty,\u0020</string>
+</resources>

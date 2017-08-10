@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jonsweeney.rickandmortyquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="@dimen/small_margin">
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            style="@style/CustomEditText"
+            android:hint="@string/user_name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q_1" />
+
+        <RadioGroup style="@style/CustomRadioGroup">
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_1_wrong_1" />
+
+            <RadioButton
+                android:id="@+id/question_1_correct"
+                style="@style/CustomRadioButton"
+                android:text="@string/q_1_answer" />
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_1_wrong_2" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_width="wrap_content"
+                android:text="@string/q_2" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="@dimen/small_margin"
+                android:contentDescription="@string/q_2_answer"
+                android:scaleType="centerCrop"
+                android:src="@drawable/meeseeks" />
+
+        </LinearLayout>
+
+        <RadioGroup style="@style/CustomRadioGroup">
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_2_wrong_1" />
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_2_wrong_2" />
+
+            <RadioButton
+                android:id="@+id/question_2_correct"
+                style="@style/CustomRadioButton"
+                android:text="@string/q_2_answer" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q_3" />
+
+        <RadioGroup style="@style/CustomRadioGroup">
+
+            <RadioButton
+                android:id="@+id/question_3_correct"
+                style="@style/CustomRadioButton"
+                android:text="@string/q_3_answer" />
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_3_wrong_1" />
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_3_wrong_2" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q_4" />
+
+        <RadioGroup style="@style/CustomRadioGroup">
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_4_wrong_1" />
+
+            <RadioButton
+                style="@style/CustomRadioButton"
+                android:text="@string/q_4_wrong_2" />
+
+            <RadioButton
+                android:id="@+id/question_4_correct"
+                style="@style/CustomRadioButton"
+                android:text="@string/q_4_answer" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q_5_text_view" />
+
+        <EditText
+            android:id="@+id/question_5_edit_text"
+            style="@style/CustomEditText"
+            android:hint="@string/q_5"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:paddingBottom="@dimen/small_margin"
+            android:text="@string/q_6" />
+
+        <CheckBox
+            android:id="@+id/q_6_answer_1"
+            style="@style/CustomCheckBox"
+            android:text="@string/q_6_answer_1" />
+
+        <CheckBox
+            android:id="@+id/q_6_answer_2"
+            style="@style/CustomCheckBox"
+            android:text="@string/q_6_answer_2" />
+
+        <CheckBox
+            android:id="@+id/q_6_answer_3"
+            style="@style/CustomCheckBox"
+            android:layout_marginBottom="@dimen/radio_group_margin_bottom"
+            android:text="@string/q_6_answer_3" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:paddingBottom="@dimen/small_margin"
+            android:text="@string/q_7" />
+
+        <ToggleButton
+            android:id="@+id/question_7"
+            style="@style/CustomToggleButton" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:paddingBottom="@dimen/small_margin"
+            android:text="@string/q_8" />
+
+        <ToggleButton
+            android:id="@+id/question_8"
+            style="@style/CustomToggleButton" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:paddingBottom="@dimen/small_margin"
+            android:text="@string/q_9" />
+
+        <ToggleButton
+            android:id="@+id/question_9"
+            style="@style/CustomToggleButton" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:paddingBottom="@dimen/small_margin"
+            android:text="@string/q_10" />
+
+        <ToggleButton
+            android:id="@+id/question_10"
+            style="@style/CustomToggleButton" />
+
+        <TextView
+            android:id="@+id/results_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:onClick="submitQuiz"
+            android:text="@string/submit_button"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+</ScrollView>
